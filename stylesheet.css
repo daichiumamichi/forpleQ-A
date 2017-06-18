@@ -1,0 +1,55 @@
+body{
+  font-family: 'Bree Serif', serif;
+  background-image: url(images/backpic.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+header{
+  height: 90px;
+}
+
+.header-left{
+  padding: 20px 40px;
+  float: left;
+  font-size: 40px;
+}
+
+.header-right{
+  float: right;
+}
+
+.header-right li{
+  float: left;
+  padding: 33px 20px;
+}
+
+.messages{
+  padding: 20px 80px;
+}
+
+.messages h1{
+  font-size: 80px;
+}
+
+.messages h2{
+  font-size: 70px;
+}
+
+.messages span{
+  font-size: 50px;
+  padding: 1px 6px;
+}
+
+.messages p{
+  font-size: 30px;
+}
