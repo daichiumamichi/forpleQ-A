@@ -18,7 +18,7 @@ foreach ($sql->fetchAll() as $row) {
 if (isset($_SESSION['users'])){
   echo 'こんにちは'.$_SESSION['users']['name'].'さん';
 }else {
-  echo 'ユーザー名またはパスワードが違います。';
+  require('login-form.php');
 }
  ?>
 
