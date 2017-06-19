@@ -26,6 +26,7 @@ echo '<h1>アカウント</h1>';
   echo '<p><a href="logout.php">ログアウト</a></p>';
 }else {
 echo 'マイページに進むには、ログインが必要です。';
+echo '<br>';
 echo '<a href="login-form.php">ログイン</a>';
 }
 ?>
